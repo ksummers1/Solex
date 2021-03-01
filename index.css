@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Antic Slab';
+    font-size: 42px;
+}
+
+p {
+    text-align: center;
+}
+
+.navlist {
+    display: flex;
+    list-style: none;
+}
+
+.navlist a {
+    display: block;
+    font-size: 1.5em;
+    padding: .75em .5em;
+    color: white;
+}
+
+.navlist a:hover {
+    background: #F294EC;
+}
+
+#navbar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    background-color: #8E24AF;
+    color: white;
+}
+
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #050330;
+    color: white;
+    width: 100%;
+    height: 100vh;
+}
